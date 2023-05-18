@@ -1,5 +1,5 @@
 # agon-tinybasic
-Port of Tom Pittman's Tiny Basic to the Agon Lite. See http://www.ittybittycomputers.com/IttyBitty/TinyBasic/index.htm
+Port of Tom Pittman's Tiny Basic to the Agon Light. See http://www.ittybittycomputers.com/IttyBitty/TinyBasic/index.htm
 
 To compile, open the tinybasic.zdsproj with Zilog's Developer Studio II. This is Windows software (which works on Wine) and free as in beer, not free as in speech. Tested with ZDS II 5.3.5 on Debian 11 Bullseye using the version of Wine in the official stable repository (wine-5.0.3 (Debian 5.0.3-3)).
 
@@ -36,7 +36,7 @@ The ```.``` informs MOS to use the default value there (&40000) which is the sta
 
 ## How to Quit Tiny BASIC
 
-The StopIt function has not been implemented yet so for now you need to reset the Agon Lite to quit.
+The StopIt function has not been implemented yet so for now you need to reset the Agon Light to quit.
 
 ## Licence
 
@@ -52,7 +52,7 @@ Combined with the Agon template by Jeroen Venema
 https://github.com/envenomator/Agon.
 Licence: GNU General Public License v3.0
 
-Minor changes to make it to run on Agon Lite by Tim Delmare 2023
+Minor changes to make it to run on Agon Light by Tim Delmare 2023
 https://github.com/oldpatientsea/agon-tinybasic
 Licence: GNU General Public License v3.0
 
