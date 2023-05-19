@@ -16,7 +16,7 @@ Combined with the Agon template by Jeroen Venema
 https://github.com/envenomator/Agon.
 Licence: GNU General Public License v3.0
 
-Changes to make it to run on Agon Lite by Tim Delmare 2023
+Changes to make it to run on Agon Light by Tim Delmare 2023
 https://github.com/oldpatientsea/agon-tinybasic
 Licence: GNU General Public License v3.0
 */
