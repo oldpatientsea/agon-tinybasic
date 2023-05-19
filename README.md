@@ -11,13 +11,17 @@ objcopy -I ihex tinybasic.hex -O binary tinybasic.bin
 
 ```objcopy``` is part of binutils.
 
-The bin file can then be copied to 
+The bin file can then be copied to the microSD card and run on the Agon Light.
 
 It should be fairly easy to get this to compile using SDCC but I haven't tried it yet.
 
 ## What Is It?
 
 Defining Tiny BASIC for the Homebrew Computer Club, Pittman wrote, "Tiny BASIC is a proper subset of Dartmouth BASIC, consisting of the following statement types only: LET, PRINT, INPUT, IF, GOTO, GOSUB, RETURN, END, CLEAR, LIST, RUN. Arithmetic is in 16-bit integers only with the operators + - * / and nested parentheses. There are only the 26 single letter variable names A, B, ...Z, and no functions. There are no strings or arrays... Tiny BASIC specifies line numbers less than 256."
+
+Note, this version of Tiny BASIC is written in C not assembly and is an order of magnitude larger as a result. Tom Pittman's BASIC is implemented in a virtual machine which is in turn interpreted. This is true to the spirit of the [original design](http://www.ittybittycomputers.com/IttyBitty/TinyBasic/DDJ1/Design.html).  
+
+There's copy of the relevant sections of the Dr Dobb's articles describing both the original Tiny BASIC and the C version in the thirdpartydocs folder, along with a copy of Tom Pittman's original c source.
 
 ## How to Run Tiny BASIC
 
